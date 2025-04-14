@@ -164,3 +164,97 @@ UI Flow:
 - Retention: 7-day and 30-day return rate
 - User Feedback: Qualitative feedback on prompt usefulness
 - Creative Impact: Case studies of work created using the app prompts
+
+# Project Specifications
+
+## Overview
+
+Creative Spark is a cross-platform mobile application that generates lateral thinking prompts to help users overcome creative blocks.
+
+## Target Platforms
+
+- iOS (iOS 14.0+)
+- Android (API Level 24+)
+
+## Core Features
+
+### Prompt Generation
+
+- Random selection from curated prompt database
+- No repeat prompts until all have been shown
+- Smooth animations for card transitions
+
+### User Interface
+
+- Dark mode by default
+- Serif typography for prompts
+- Gesture-based interactions
+- Haptic feedback on prompt generation
+
+### Data Management
+
+- Local storage of prompts
+- No internet connection required
+- Session history (last 10 prompts)
+
+## Technical Requirements
+
+### Development
+
+- Kotlin Multiplatform Mobile
+- Jetpack Compose for Android UI
+- SwiftUI for iOS UI
+- MVVM architecture
+- Kotlin Coroutines for async operations
+
+### Testing
+
+- Unit tests for business logic
+- UI tests for core interactions
+- Performance testing for animations
+
+### Performance Metrics
+
+- App size < 20MB
+- Startup time < 2 seconds
+- Smooth 60fps animations
+- Memory usage < 100MB
+
+## Design Guidelines
+
+### Typography
+
+- Headings: Playfair Display
+- Body: Source Serif Pro
+- Prompts: Baskerville
+
+### Color Palette
+
+- Primary: #121212 (Dark Gray)
+- Secondary: #E0E0E0 (Light Gray)
+- Accent: #BB86FC (Purple)
+- Surface: #1E1E1E
+- Error: #CF6679
+
+### Interactions
+
+- Tap anywhere to generate new prompt
+- Swipe left/right to review history
+- Long press to save favorite prompts
+
+## Deployment Requirements
+
+### App Store
+
+- Screenshots for various device sizes
+- App description and keywords
+- Privacy policy
+- Support contact information
+
+### Play Store
+
+- Feature graphic
+- Screenshots for various device sizes
+- App description and keywords
+- Privacy policy
+- Support contact information
