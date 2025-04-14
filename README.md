@@ -1,4 +1,4 @@
-# Creative Spark
+# Lateral
 
 A minimalist cross-platform application inspired by Brian Eno's Oblique Strategies, designed to help artists, writers, musicians, and creators overcome creative blocks through lateral thinking prompts.
 
