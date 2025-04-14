@@ -2,7 +2,7 @@
 
 ## Overview
 
-Creative Spark is a minimalist cross-platform application inspired by Brian Eno's Oblique Strategies. The app serves as a digital deck of thought-provoking prompts designed to help artists, writers, musicians, and creators overcome creative blocks through lateral thinking.
+Lateral is a minimalist cross-platform application inspired by Brian Eno's Oblique Strategies. The app serves as a digital deck of thought-provoking prompts designed to help artists, writers, musicians, and creators overcome creative blocks through lateral thinking.
 
 ## Technical Architecture
 
@@ -169,7 +169,7 @@ UI Flow:
 
 ## Overview
 
-Creative Spark is a cross-platform mobile application that generates lateral thinking prompts to help users overcome creative blocks.
+Lateral is a cross-platform mobile application that generates lateral thinking prompts to help users overcome creative blocks.
 
 ## Target Platforms
 

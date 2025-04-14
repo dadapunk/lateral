@@ -3,12 +3,12 @@
 A minimalist cross-platform application inspired by Brian Eno's Oblique Strategies, designed to help artists, writers, musicians, and creators overcome creative blocks through lateral thinking prompts.
 
 <p align="center">
-  <img src="/api/placeholder/300/150" alt="Creative Spark App" />
+  <img src="/api/placeholder/300/150" alt="Lateral App" />
 </p>
 
 ## About
 
-Creative Spark delivers random, thought-provoking prompts to encourage unconventional thinking and help break creative stagnation. With a deliberately minimalist interface, the app feels like drawing a card from a digital deck—providing just enough disruption to your creative process to spark new directions.
+Lateral delivers random, thought-provoking prompts to encourage unconventional thinking and help break creative stagnation. With a deliberately minimalist interface, the app feels like drawing a card from a digital deck—providing just enough disruption to your creative process to spark new directions.
 
 ## Key Features
 
@@ -19,7 +19,7 @@ Creative Spark delivers random, thought-provoking prompts to encourage unconvent
 
 ## Technology
 
-Creative Spark is built using Kotlin Multiplatform (KMP), allowing for shared business logic while maintaining native UI experiences:
+Lateral is built using Kotlin Multiplatform (KMP), allowing for shared business logic while maintaining native UI experiences:
 
 - **Shared Code**: Kotlin Multiplatform
 - **Android UI**: Jetpack Compose
