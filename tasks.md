@@ -1,91 +1,105 @@
 # Development Tasks
 
-## Phase 1: Project Setup and Core Infrastructure
+## 1. Android-First Proof of Concept (POC)
 
-### Setup (Week 1)
+### 1.1. Initial Setup
 
-- [x] Initialize Kotlin Multiplatform project
-- [x] Configure Android and iOS targets
-- [x] Set up build system and dependencies
-- [ ] Create project documentation
+- [ ] 1.1.1. Initialize basic Kotlin Multiplatform project
+- [ ] 1.1.2. Configure minimal Android target only
+- [ ] 1.1.3. Set up essential dependencies
 
-### Core Development (Weeks 2-3)
+### 1.2. Core Functionality
 
-- [ ] Implement PromptRepository
-- [ ] Create basic ViewModels
-- [ ] Design and implement data models
-- [ ] Set up unit testing framework
+- [ ] 1.2.1. Create simple shared data model for prompts
+- [ ] 1.2.2. Implement basic PromptRepository with hardcoded sample data
+- [ ] 1.2.3. Create simplified ViewModel for prompt display
 
-## Phase 2: UI Implementation
+### 1.3. Android UI Implementation
 
-### Android (Weeks 4-5)
+- [ ] 1.3.1. Create basic Android UI with Compose (single screen)
+- [ ] 1.3.2. Implement simple prompt display
+- [ ] 1.3.3. Verify shared code works correctly with Android
 
-- [ ] Create basic Compose UI structure
-- [ ] Implement prompt display screen
-- [ ] Add card flip animations
-- [ ] Configure dark theme
-- [ ] Implement haptic feedback
+### 1.4. POC Validation
 
-### iOS (Weeks 6-7)
+- [ ] 1.4.1. Test on Android device/emulator
+- [ ] 1.4.2. Document learnings and challenges
+- [ ] 1.4.3. Decide on proceeding to enhanced Android app
 
-- [ ] Create SwiftUI views
-- [ ] Mirror Android UI functionality
-- [ ] Implement iOS-specific animations
-- [ ] Configure dark theme
-- [ ] Implement Taptic Engine feedback
+## 2. Enhanced Android Development
 
-## Phase 3: Feature Implementation
+### 2.1. Project Infrastructure Enhancement
 
-### Core Features (Weeks 8-9)
+- [ ] 2.1.1. Refine project structure based on POC learnings
+- [ ] 2.1.2. Complete build system configuration
+- [ ] 2.1.3. Set up unit testing framework
+- [ ] 2.1.4. Improve project documentation
 
-- [ ] Random prompt generation
-- [ ] History tracking
-- [ ] Basic settings
-- [ ] Offline storage
+### 2.2. Complete Core Development
 
-### Enhanced Features (Weeks 10-11)
+- [ ] 2.2.1. Expand PromptRepository with full functionality
+- [ ] 2.2.2. Implement complete ViewModels
+- [ ] 2.2.3. Finalize data models
 
-- [ ] Share functionality
-- [ ] Custom animations
-- [ ] Sound effects
-- [ ] Favorites system
+### 2.3. Complete Android UI Implementation
 
-## Phase 4: Testing and Polish
+- [ ] 2.3.1. Create full Compose UI structure
+- [ ] 2.3.2. Implement all screens
+- [ ] 2.3.3. Add card flip animations
+- [ ] 2.3.4. Configure dark theme
+- [ ] 2.3.5. Implement haptic feedback
 
-### Testing (Week 12)
+### 2.4. Feature Implementation
 
-- [ ] Unit tests
-- [ ] UI tests
-- [ ] Performance testing
-- [ ] Cross-platform compatibility testing
+- [ ] 2.4.1. Random prompt generation
+- [ ] 2.4.2. History tracking
+- [ ] 2.4.3. Basic settings
+- [ ] 2.4.4. Offline storage
+- [ ] 2.4.5. Share functionality
 
-### Polish (Week 13)
+### 2.5. Android Testing and Polish
 
-- [ ] UI/UX refinements
-- [ ] Performance optimizations
-- [ ] Accessibility improvements
-- [ ] Final bug fixes
+- [ ] 2.5.1. Unit and UI tests
+- [ ] 2.5.2. Performance optimizations
+- [ ] 2.5.3. Accessibility improvements
+- [ ] 2.5.4. Final bug fixes
 
-## Phase 5: Deployment Preparation
+## 3. iOS Implementation (When Mac Environment Available)
 
-### Store Preparation (Week 14)
+### 3.1. iOS Setup
 
-- [ ] Create store listings
-- [ ] Prepare screenshots
-- [ ] Write app descriptions
-- [ ] Create privacy policy
+- [ ] 3.1.1. Configure iOS target in existing KMP project
+- [ ] 3.1.2. Verify shared code functions with iOS target
+- [ ] 3.1.3. Set up iOS-specific dependencies
 
-### Launch (Week 15)
+### 3.2. iOS UI Implementation
 
-- [ ] Internal testing
-- [ ] Beta testing
-- [ ] Store submission
-- [ ] Marketing materials
+- [ ] 3.2.1. Create SwiftUI views
+- [ ] 3.2.2. Mirror Android UI functionality
+- [ ] 3.2.3. Implement iOS-specific animations
+- [ ] 3.2.4. Configure dark theme
+- [ ] 3.2.5. Implement Taptic Engine feedback
 
-## Future Enhancements
+### 3.3. iOS Testing and Polish
 
-- [ ] User-contributed prompts
-- [ ] Cloud sync
-- [ ] Themed prompt collections
-- [ ] Social features
-- [ ] Integration with creative tools
+- [ ] 3.3.1. iOS UI tests
+- [ ] 3.3.2. iOS-specific optimizations
+- [ ] 3.3.3. Verify cross-platform compatibility
+
+## 4. Deployment Preparation
+
+- [ ] 4.1.1. Create Google Play store listing
+- [ ] 4.1.2. Prepare screenshots
+- [ ] 4.1.3. Write app descriptions
+- [ ] 4.1.4. Create privacy policy
+- [ ] 4.1.5. Submit to Google Play
+- [ ] 4.1.6. (When iOS version complete) Create App Store listing
+- [ ] 4.1.7. (When iOS version complete) Submit to App Store
+
+## 5. Future Enhancements
+
+- [ ] 5.0.1. Advanced animations and effects
+- [ ] 5.0.2. User-contributed prompts
+- [ ] 5.0.3. Cloud sync
+- [ ] 5.0.4. Themed prompt collections
+- [ ] 5.0.5. Social features
